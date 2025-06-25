@@ -178,7 +178,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(homepageimg.png) no-repeat;
+    background: url("assets/homepageimg.png") no-repeat;
     background-size: cover;
     background-position: center;
 
