@@ -203,14 +203,59 @@ section {
     color: #eee;
 }
 
+/* About section starts */
+/* General styles for the About section */
+.about {
+    padding: 2rem;
+}
+.content{
+    border: .1rem solid rgba(255, 255, 255, .3);
+}
+
+.about .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* default for mobile */
+    text-align: center;
+}
+
+/* Content box */
+.about .content {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    color: #fff;
+}
+
+/* Image and text container */
+.about_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image responsiveness */
+.about_content .image img {
+    max-width: 100%;
+    height: auto;
+}
 
 
+/* 
 .image {
     padding-left: 7rem;
 }
 
 #package1 {
-    /* padding-left: 250px; */
+    padding-left: 250px;
     font-size: 1.45rem;
     color: #fff;
     background-color: #13131a;
@@ -232,11 +277,11 @@ section {
     font-weight: bold;
     
 } */
-
+/* 
 #package1 h3 {
     font-size: 2rem;
     /* font-weight: bold; */
-    padding: 2rem 0rem 0rem 2rem;
+/* padding: 2rem 0rem 0rem 2rem;
     color: #eee;
 }
 
@@ -247,7 +292,7 @@ section {
 
 #knowmorebtn {
     margin: 2rem 0rem 2rem 7rem;
-}
+}  */
 
 /* packages section */
 
@@ -528,4 +573,32 @@ form h3 {
         text-align: center;
     }
 
+}
+
+
+/* Responsive behavior */
+@media (min-width: 768px) {
+    .about .row {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about_content {
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .about_content .image {
+        flex: 1;
+    }
+
+    .about_content div:last-child {
+        flex: 2;
+    }
+
+    .about .content {
+        text-align: left;
+    }
 }
