@@ -208,16 +208,19 @@ section {
 .about {
     padding: 2rem;
 }
-.content{
+.about .content{
     border: .1rem solid rgba(255, 255, 255, .3);
 }
 
 .about .heading {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    /* font-size: 2rem; */
+
 }
 
 .about .row {
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
