@@ -21,8 +21,8 @@ Designed with a dark theme and beige color palette inspired by the natural hues 
 
 ## 🚀 Live Website
 
-Check out the live website here: [https://your-username.github.io/ladakh-luxe/](https://your-username.github.io/ladakh-luxe/)  
-*(Replace `your-username` with your actual GitHub username)*
+Check out the live website here: [https://codebysalmanshaikh.github.io/Ladakh-Luxe/]  
+
 
 ## 🎯 Purpose
 
